@@ -1,0 +1,70 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "A simple portfolio for developers",
+  "version": "0.1.2",
+  "author": "Smakosh <ismai23l@hotmail.com>",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "formik": "^2.0.4",
+    "gatsby": "^2.17.11",
+    "gatsby-background-image": "^0.9.6",
+    "gatsby-image": "^2.2.31",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-canonical-urls": "^2.1.14",
+    "gatsby-plugin-favicon": "^3.1.6",
+    "gatsby-plugin-google-analytics": "^2.1.25",
+    "gatsby-plugin-manifest": "^2.2.27",
+    "gatsby-plugin-nprogress": "^2.1.13",
+    "gatsby-plugin-offline": "^3.0.19",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-plugin-sharp": "^2.2.37",
+    "gatsby-plugin-sitemap": "^2.2.20",
+    "gatsby-plugin-styled-components": "^3.1.12",
+    "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-source-graphql": "^2.1.22",
+    "gatsby-transformer-sharp": "^2.3.3",
+    "gatsby-transformer-sqip": "^2.1.40",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.11.0",
+    "react-google-recaptcha": "^2.0.1",
+    "react-helmet": "^5.2.1",
+    "sharp": "^0.23.2",
+    "styled-components": "^4.4.1",
+    "yup": "^0.27.0"
+  },
+  "keywords": [
+    "gatsby",
+    "portfolio",
+    "developer"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop -o",
+    "format": "prettier --write \"src/**/*.js\"",
+    "reset": "rm -rf .cache/ public/",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+  }
+}

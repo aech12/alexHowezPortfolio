@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/aech12",
+    "icon": "/icons/github.svg",
+    "title": "Github"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/alexhowez/",
+    "icon": "/icons/linkedin.svg",
+    "title": "LinkedIn"
+  },
+  {
+    "id": 4,
+    "name": "Email",
+    "link": "mailto:aech-12@hotmail.com",
+    "icon": "/icons/email.svg",
+    "title": "Email"
+  }
+]
