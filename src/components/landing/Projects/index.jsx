@@ -1,5 +1,4 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Card } from 'Common'
 import starIcon from 'Static/icons/star.svg'
 import forkIcon from 'Static/icons/fork.svg'
@@ -28,8 +27,8 @@ const projects = [
     src: projImg1,
     title: 'LA Castings',
     stack: 'React',
-    description: `Cancelled +18 "Castings" website, I wanted to learn about the
-added difficulties of making an adult website.`,
+    description: `Cancelled +18 "Castings" website, I was was particularly interested in this project to learn about the
+added difficulties of making and deploying an adult website.`,
   },
 ]
 const projects2 = [

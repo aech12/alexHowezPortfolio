@@ -95,7 +95,7 @@ export const OverlayMenu = styled.div`
 `
 export const ProjectCard = styled.div`
   position: relative;
-  background: rgb(0, 255, 193, 0.9);
+  background: rgb(101, 235, 181, 0.9);
   box-shadow: 1px 2px 3px 3px #ccc;
   overflow: hidden;
   // max-height: 75%;

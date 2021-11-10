@@ -129,6 +129,10 @@ export const ProjectCardLong = styled.div`
   p {
     margin: 0;
   }
+  &:hover img {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
 `
 export const ImageGallery = styled.div`
   display: flex;
